@@ -10,7 +10,7 @@ A sample implementation of this lambda function is available under [oidc-validat
 
 ```yaml
 - name: AWS Auth
-  uses: ethanrucinski/action-aws-oidc-auth@v1
+  uses: sede-open/action-aws-oidc-auth@v1
   with:
       initial-role-to-assume:
       # The role you intend to assume using the regular assume role with GitHub OIDC token
@@ -29,7 +29,7 @@ A sample implementation of this lambda function is available under [oidc-validat
 
 ```yaml
 - name: AWS Auth
-  uses: ethanrucinski/action-aws-oidc-auth@main
+  uses: sede-open/action-aws-oidc-auth@main
   with:
       initial-role-to-assume: arn:aws:iam::123456789:role/github-oidc-role
       aws-region: us-east-2
