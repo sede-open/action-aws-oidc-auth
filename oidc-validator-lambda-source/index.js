@@ -3,8 +3,8 @@ const https = require("https");
 const { STSClient, AssumeRoleCommand } = require("@aws-sdk/client-sts");
 
 const claims = {
-    sub: "repo:ethanrucinski/.*:refs/heads/main",
-    job_workflow_ref: "ethanrucinski/.*/.github/workflows/.*.yaml@.*",
+    sub: "repo:sede-res/.*:refs/heads/main",
+    job_workflow_ref: "sede-x/github-cicd-workflows/.github/workflows/cd.yaml@.*", // Makes sure reusable workflow is used
 };
 
 // Download latest JWKS from GitHub token issuer
