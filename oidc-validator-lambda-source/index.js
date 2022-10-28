@@ -73,6 +73,8 @@ exports.handler = async function (event) {
                 audience: "sts.amazonaws.com",
             }
         );
+
+        console.log(decoded);
     } catch (err) {
         console.log("Couldn't decode token");
         console.log(err);

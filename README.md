@@ -6,6 +6,8 @@ To solve this constraint, we introduce a lambda function, invoked by a role assu
 
 A sample implementation of this lambda function is available under [oidc-validator-lambda-source](./oidc-validator-lambda-source/). The CloudFormation to deploy this Lambda and the necessary roles can be found under [oidc-validator-cloudformation](./oidc-validator-cloudformation/).
 
+![OIDC Lambda Validator](docs/github-oidc-validator.png)
+
 ## Usage
 
 ```yaml
